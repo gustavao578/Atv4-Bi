@@ -1,0 +1,42 @@
+/* Nav bar e fonte*/
+nav{
+    background-color: rgb(15, 224, 224);
+}
+h1{
+    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div.container-fluid a{
+    -webkit-text-fill-color: rgb(46, 32, 32);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ajuste conforme necessário */
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno */
+    position: relative; /* Para controle de layout se necessário */
+    bottom: 0; /* Fica na parte inferior se necessário */
+    width: 100%; /* Largura total */
+}
+ 
+footer p {
+    margin: 0; /* Remove margens do parágrafo */
+    font-size: 14px; /* Tamanho do texto */
+}
+
+.body{
+    background-color: black;
+}
