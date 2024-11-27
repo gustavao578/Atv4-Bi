@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/Tendências.css">
     <title>Meu portfólio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background-color: rgb(27, 99, 162);">
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -36,10 +36,99 @@
                 </ul>
               </li>
             </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tendências Tecnológicas
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/Html/Tendências Tecnológicas/autoerobo.html">Automação e Robótica</a></li>
+                <li><a class="dropdown-item" href="/Html/Tendências Tecnológicas/block.html">BlockChain</a></li>
+                <li><a class="dropdown-item" href="/Html/Tendências Tecnológicas/cib.html">Cibersegurança</a></li>
+                <li><a class="dropdown-item" href="/Html/Tendências Tecnológicas/edge.html">Edge computing</a></li>
+              </ul>
+            </li>
+          </ul>
           </div>
         </div>
       </nav>
     </header>
+      <h1 style="color: antiquewhite; background-color: rgba(255, 55, 0, 0.854);">BlockChain</h1>
+      <img src="/img/BlockChain.jfif" class="d-block w-50" alt="...">
+      <p style="background-color: rgb(16, 168, 168); color: rgb(245, 245, 245); font-style: italic;">
+        Blockchain é um conceito e uma arquitetura de banco de dados que permite o compartilhamento 
+        de informações de forma transparente em uma rede. É um registro digital descentralizado 
+        de transações que se caracteriza por ser imutável, ou seja, não pode ser alterado.</p>
+        <p style="background-color: aquamarine; font-style: italic; color:;">
+          A blockchain é usada para facilitar o registro de transações e o rastreamento de ativos
+           em uma rede de negócios. Os ativos podem ser tangíveis, como dinheiro, carros, casas, 
+           ou intangíveis, como direitos autorais, patentes, propriedade intelectual, entre outros. 
+           O blockchain mais conhecido é o que suporta as transações do Bitcoin, mas existem vários outros. É possível criar um blockchain em casa, no computador.</p>
+      <br>
+      <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/img/Descentralização.jfif" class="card-img-top" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title" style="background-color: aquamarine;">Decentralização</h5>
+              <p class="card-text" >
+                O controle e a tomada de decisões são transferidos 
+                de uma entidade centralizada para uma rede distribuída.
+               
+               <p> Vantagens: A descentralização elimina o risco de falhas em um único ponto e aumenta a resistência a censura, 
+                já que a mudança de informações exige o consenso de uma maioria distribuída.</p>
+                
+                Como funciona: Em um sistema descentralizado, não há um "donos" ou servidores centrais que controlam as transações. 
+                Cada nó na rede possui uma cópia completa ou parcial do livro de registro (blockchain), o que garante que a 
+                informação seja compartilhada e verificada por todos os participantes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/img/Imutabilidade.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="background-color: rgb(210, 223, 27);">Imutabilidade</h5>
+              <p class="card-text">
+                Uma vez que uma transação é registrada 
+                no livro-razão compartilhado, nenhum participante 
+                pode alterá-la. 
+              <p>Como funciona: Cada bloco contém um código criptográfico, 
+                chamado de hash, que é derivado dos dados do bloco anterior.
+                 Quando novos blocos são adicionados, eles dependem 
+                 do hash do bloco anterior, formando uma cadeia. 
+                 Para modificar um bloco, seria necessário alterar o 
+                 hash do bloco afetado e, consequentemente, de todos os
+                  blocos seguintes, o que demandaria um enorme poder 
+                  computacional, tornando essa tarefa inviável em redes 
+                  grandes e seguras.</p>
+
+                <p>Vantagens: A imutabilidade assegura a integridade dos 
+                  dados, tornando extremamente difícil fraudar ou alterar
+                   registros uma vez confirmados. Isso é essencial para a
+                    confiança nas transações feitas dentro da blockchain.
+                  </p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/img/Consenso.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="background-color: rgb(43, 144, 226);">Consenso</h5>
+              <p class="card-text">Para registrar novas transações, é necessário o consentimento da maioria dos participantes da rede. 
+                <p>Como funciona: Os algoritmos de consenso mais comuns são o Proof of Work (PoW) e o Proof of Stake (PoS). No PoW, como no Bitcoin, os mineradores competem para resolver complexos problemas matemáticos, e o primeiro a resolver recebe o direito de adicionar um novo bloco à cadeia e receber uma recompensa. No PoS, validadores são escolhidos com base na quantidade de criptomoedas que possuem e estão dispostos a "apostar" como garantia para validar as transações.</p>
+                <p>Vantagens: O consenso garante que todas as transações sejam verificadas por múltiplos participantes na rede, evitando fraudes e garantindo que a rede não seja controlada por uma única entidade.</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      <footer> 
+        <p>&copy; 2024 Gustavo Gonçalves Viana. Todos os direitos são reservados.</p>
+ </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
     </html>

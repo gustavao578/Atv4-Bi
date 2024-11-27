@@ -1,6 +1,10 @@
 /* Nav bar e fonte*/
+body{
+    background-color: black;
+}
+
 nav{
-    background-color: rgb(214, 113, 46);
+    background-color: rgb(30, 212, 212);
 }
 h1{
     text-align: center ;
@@ -8,7 +12,7 @@ h1{
 
 }
 div.container-fluid a{
-    -webkit-text-fill-color: rgb(53, 38, 38);
+    -webkit-text-fill-color: rgb(46, 32, 32);
 }
 .container {
     display: flex;
